@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap');
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  background-color: #0f1222;
+}
+
+.my-ortala {
+}
+
+.bg-1 {
+  background-color: #f3f1ef;
+}
