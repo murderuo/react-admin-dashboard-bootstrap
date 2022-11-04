@@ -21,17 +21,15 @@ function Profile() {
         <h6 className="fw-bold">Uğur Okur</h6>
       </div>
       <div className="row my-5 gy-2 gap-2 justify-content-center">
-        <div className="btn btn-light text-md-start fs-5 w-75">
-          <div className="d-inline d-sm-none">
-            <FontAwesomeIcon
-              icon={faHouse}
-              size={'xs'}
-              style={{ marginRight: '5px' }}
-            />
-          </div>
-          <div className="d-inline">Dashboard</div>
+        <div className="btn btn-light text-md-center text-lg-start  fs-5 w-75">
+          <FontAwesomeIcon
+            icon={faHouse}
+            size={'xs'}
+            style={{ marginRight: '5px' }}
+          />
+          Dashboard
         </div>
-        <div className="btn btn-light text-md-start fs-5 w-75">
+        <div className="btn btn-light text-md-center text-lg-start  fs-5 w-75">
           <FontAwesomeIcon
             icon={faPeopleGroup}
             size={'xs'}
@@ -39,7 +37,7 @@ function Profile() {
           />
           Customers
         </div>
-        <div className="btn btn-light text-md-start fs-5 w-75">
+        <div className="btn btn-light text-md-center text-lg-start  fs-5 w-75">
           <FontAwesomeIcon
             icon={faHouseMedicalCircleCheck}
             size={'xs'}
@@ -47,7 +45,7 @@ function Profile() {
           />
           Solutions
         </div>
-        <div className="btn btn-light text-md-start fs-5 w-75">
+        <div className="btn btn-light text-md-center text-lg-start  fs-5 w-75">
           <FontAwesomeIcon
             icon={faScrewdriverWrench}
             size={'xs'}

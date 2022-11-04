@@ -6,8 +6,6 @@ import Profile from '../Profile/';
 function Main() {
   return (
     <div className="container h-100 my-md-5">
-    <div className="col">
-
       <div className="row rounded bg-light" style={{ height: '600px' }}>
         <div className="col-md-3 bg-light rounded p-4 ">
           <Profile />
@@ -26,7 +24,6 @@ function Main() {
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 }
