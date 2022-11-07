@@ -12,15 +12,15 @@ import {
 function Profile() {
   return (
     <>
-      <div className="row mb-5 justify-content-center align-items-center mx-auto ">
+      <div className="mb-5 d-flex justify-content-center align-items-center mx-auto ">
         <img src={logo} alt="" className="w-25" />
         <h6 className="w-50 ">Admin Panel</h6>
       </div>
-      <div className="row justify-content-center my-5 text-center">
+      <div className="d-flex flex-column align-items-center my-5 ">
         <img src={profilePic} alt="" className="rounded-circle w-50 mb-2" />
         <h6 className="fw-bold">Uğur Okur</h6>
       </div>
-      <div className="row my-5 gy-2 gap-2 justify-content-center">
+      <div className=" d-flex flex-column my-5 gy-2 gap-2 justify-content-center">
         <div className="btn btn-light text-md-center text-lg-start  fs-5 w-75">
           <FontAwesomeIcon
             icon={faHouse}
@@ -54,7 +54,7 @@ function Profile() {
           Settings
         </div>
       </div>
-      <div className="row  flex-row">
+      <div className="flex-row">
         <div className="text-center text-lg-start ms-lg-4 ">
           <FontAwesomeIcon icon={faRightFromBracket} size={'xs'} />
           Exit

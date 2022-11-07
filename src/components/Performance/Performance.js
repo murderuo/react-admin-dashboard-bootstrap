@@ -8,8 +8,8 @@ import {
 function Performance() {
   return (
     <>
-      <div className="col performance-bg rounded text-light p-3">
-        <div className="row ">
+      <div className="col performance-bg rounded text-light p-3 m-2">
+        <div className="row">
           <div className="d-flex align-items-center justify-content-between fw-bold">
             Performance
             <FontAwesomeIcon
@@ -40,7 +40,7 @@ function Performance() {
             </div>
           </div>
         </div>
-        <div className="row my-3">
+        <div className="row my-4">
           <ul className="list-unstyled d-flex flex-column gap-4">
             <li>
               <FontAwesomeIcon

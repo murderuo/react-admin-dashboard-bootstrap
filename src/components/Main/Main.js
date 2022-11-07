@@ -5,21 +5,24 @@ import Profile from '../Profile/';
 
 function Main() {
   return (
-    <div className="container h-100 my-md-5">
-      <div className="row rounded bg-light" style={{ height: '600px' }}>
-        <div className="col-md-3 bg-light rounded p-4 ">
+    <div
+      className="container h-100 rounded-4 bg-light my-md-5"
+      style={{ height: '600px' }}
+    >
+      <div className="row rounded-4 bg-light ">
+        <div className="col-md-3 p-4 ">
           <Profile />
         </div>
-        <div className="col-md-9 bg-1 rounded">
-          <div className="row">
-            <div className="col-4 p-3">
+        <div className="col-md-9 bg-1 rounded-4 p-3">
+          <div className="row g-0">
+            <div className="col-lg-5 col-md-12 ">
               <Performance />
             </div>
-            <div className="col-8 p-3">
+            <div className="col-lg-7 col-md-12">
               <Activity />
             </div>
           </div>
-          <div className="row p-3">
+          <div className="row p-3 engagement-bg m-2 rounded">
             <Engagement />
           </div>
         </div>
