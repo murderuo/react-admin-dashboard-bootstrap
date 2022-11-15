@@ -15,3 +15,6 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 project idea: https://dribbble.com/shots/18439419-Admin-dashboard-analytics-UX
+
+
+<img src="./screen shot.JPG" >
