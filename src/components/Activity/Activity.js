@@ -1,5 +1,6 @@
 import ExampleCharts from "../SampleChart";
 
+
 function Activity() {
   return (
     <div className="col p-3 activity-bg text-light rounded m-2">

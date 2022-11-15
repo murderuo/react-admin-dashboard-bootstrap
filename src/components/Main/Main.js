@@ -9,7 +9,8 @@ function Main() {
       className="container h-100 rounded-4 bg-light my-md-5"
       style={{ height: '600px' }}
     >
-      <div className="row rounded-4 bg-light ">
+
+      <div className="row rounded-4 bg-light  ">
         <div className="col-md-3 p-4 ">
           <Profile />
         </div>
